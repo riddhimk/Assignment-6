@@ -32,3 +32,9 @@ abstract public class Duck
         flyBehavior.fly();
     }
 
+    // Method to perform quack behavior
+    public void performQuack() 
+    {
+        quackBehavior.quack();
+    }
+
