@@ -26,3 +26,12 @@ public class Main
         rubber.performFly();
         System.out.println("-------------------");
 
+        // Decoy Duck
+        Duck decoy = new DecoyDuck();
+        decoy.display();
+        decoy.performQuack();
+        decoy.performSwim();
+        decoy.performFly();
+        System.out.println("-------------------");
+    }
+}
