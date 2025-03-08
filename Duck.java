@@ -23,3 +23,6 @@ abstract public class Duck
         this.swimBehavior = swimBehavior;
     }
 
+    // Abstract method to display the duck
+    abstract void display();
+
