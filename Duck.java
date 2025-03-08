@@ -26,3 +26,9 @@ abstract public class Duck
     // Abstract method to display the duck
     abstract void display();
 
+    // Method to perform fly behavior
+    public void performFly() 
+    {
+        flyBehavior.fly();
+    }
+
