@@ -18,3 +18,11 @@ public class Main
         redhead.performFly();
         System.out.println("-------------------");
 
+        // Rubber Duck
+        Duck rubber = new RubberDuck();
+        rubber.display();
+        rubber.performQuack();
+        rubber.performSwim();
+        rubber.performFly();
+        System.out.println("-------------------");
+
