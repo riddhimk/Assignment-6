@@ -11,3 +11,9 @@ abstract public class Duck
         this.flyBehavior = flyBehavior;
     }
 
+    // Setter for quack behavior
+    public void setQuackBehavior(QuackBehavior quackBehavior) 
+    {
+        this.quackBehavior = quackBehavior;
+    }
+
