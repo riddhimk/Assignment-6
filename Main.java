@@ -10,3 +10,11 @@ public class Main
         mallard.performFly();
         System.out.println("-------------------");
 
+        // Red Head Duck
+        Duck redhead = new RedHeadDuck();
+        redhead.display();
+        redhead.performQuack();
+        redhead.performSwim();
+        redhead.performFly();
+        System.out.println("-------------------");
+
